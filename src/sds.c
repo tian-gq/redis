@@ -437,7 +437,7 @@ void sdsIncrLen(sds s, ssize_t incr) {
     }
     s[len] = '\0';
 }
-
+/* TGQ */
 /* Grow the sds to have the specified length. Bytes that were not part of
  * the original length of the sds will be set to zero.
  *
